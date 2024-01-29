@@ -7,4 +7,4 @@ for (let r = 240; r <= 350; r++) {
 }
 
 let resultInSI = result / 10 ** 9;
-console.log(`total internal volume in SI system = ${resultInSI.toFixed(3)} m3`);
+  document.getElementById('testData').textContent = resultInSI.toFixed(3);

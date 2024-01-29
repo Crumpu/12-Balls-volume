@@ -9,5 +9,5 @@ body {
     background-image: url(../img/bg-image.png);
     background-position: center;
     background-repeat: repeat-y;
-    background-size: cover;
+    background-size: 600px;
 }
