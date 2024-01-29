@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    font-size: 50px;
+}
+
+body {
+    background-color: black;
+    background-image: url(../img/bg-image.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
