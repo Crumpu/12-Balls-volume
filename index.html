@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="./src/index.js"></script>
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>12 Balls volume</title>
 </head>
+
 <body>
-    <h1>Home Work</h1>
-    <div>
-        <ul id="list">
-        </ul>
+    <div class="hw">
+        <h1>Домашняя работа</h1>
+        <div class="item1">
+            <img src="./assets/img/2.png" alt="picture" class="picture">
+        </div>
+        <div class="item2">
+            <p>
+                <br>Дано:
+                <br>d1 = 500мм
+                <br>OA = OB = OC
+                <br>OA1 = OB1 = OC1
+                <br>AA1 = BB1 = CC1 = 10мм
+                <br>Vsum - ?
+            </p>
+        </div>
+        <div class="item3">
+            <h2>Решение</h2>
+            <p>
+                <br>r1 = d1/2 = 500 / 2 = 250мм
+                <br>OA = OB = OC = r = 240мм
+                <br>V = (3 / 4) * PI * r ^ 3
+                <br>Vsum = V1 + V2 + ... + V12;
+            </p>
+            <ul id="list">
+            </ul>
+            <p id="result"></p>
+        </div>
     </div>
-    <div></div>
-    <div></div>
-    <div id="testData"></div>
 </body>
+
 </html>

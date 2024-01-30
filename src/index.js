@@ -13,4 +13,4 @@ for (let r = 240; r <= 350; r++) {
 }
 
 let resultInSI = result / 10 ** 9;
-document.getElementById('testData').textContent = resultInSI.toFixed(3);
+document.getElementById('result').textContent = `Ответ: суммарный объем шаров = ` + resultInSI.toFixed(3) + `м3.`;
