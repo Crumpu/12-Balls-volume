@@ -1,9 +1,12 @@
 'use strict';
 let result = 0;
-for (let r = 240; r <= 350; r++) {
-  if (r % 10 !== 0) continue;
-  let V = (3 / 4) * Math.PI * r ** 3;
-    result += V;
+let wallThickness = 10;
+let minRadius = 240;
+let quantityOfBalls = 12;
+for (let i = 0; i < quantityOfBalls; i++) {
+  let r = minRadius + wallThickness * i;
+  let V = (4 / 3) * Math.PI * r ** 3;
+  result += V;
 }
 
 let resultInSI = result / 10 ** 9;
